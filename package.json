@@ -1,0 +1,62 @@
+{
+  "homepage":"http://Sadriddin-Mamatov.github.io/myproject",
+  "name": "lesson-5",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.15.0",
+    "bootstrap": "^4.6.0",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^3.1.0",
+    "joi-browser": "^13.4.0",
+    "lodash": "^4.17.21",
+    "material-ui": "^0.20.2",
+    "prop-types": "^15.7.2",
+    "query-string": "^7.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-moment": "^1.1.1",
+    "react-responsive-carousel": "^3.2.16",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-typical": "^0.1.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "predeploy":"yarn run build",
+    "deploy":"gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "The best package you will ever find.",
+  "main": "index.js",
+  "repository": "https://github.com/Sadriddin-Mamatov/myproject.git",
+  "author": "Yarn Contributor",
+  "license": "MIT"
+}
