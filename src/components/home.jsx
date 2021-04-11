@@ -71,6 +71,7 @@ const  Home = () => {
                     </div>
                  
                </div>
+               
     {/*======= <---skills-->========= */}
                <div className="qobilyatlar">
                         <div className="about-heading">
