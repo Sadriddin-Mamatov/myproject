@@ -18,7 +18,7 @@ class Navbar extends Component{
             <h1 className="navbar-logo">
             <GiTigerHead className="main-icon"/><span className="author"> Mister Sadriddin</span></h1>
             <div className="menu-icon" onClick={this.handleClick}>
-                <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}>
+                <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}>+
                 </i>
             </div>
             <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"} >

@@ -71,7 +71,7 @@ const  Home = () => {
                     </div>
                  
                </div>
-               
+
     {/*======= <---skills-->========= */}
                <div className="qobilyatlar">
                         <div className="about-heading">
@@ -203,10 +203,10 @@ const  Home = () => {
                             width="600"
                             height="450"
                             style={{border:2, width:"100%", height:"100%"}}
-                            allowfullscreen=""
+                            allowFullScreen=""
                             aria-hidden="false"
                             loading="lazy"
-                            tabindex="0"
+                            tabIndex="0"
                             ></iframe>
                         </div>
                     </div>
