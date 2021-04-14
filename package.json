@@ -1,5 +1,5 @@
 {
-  "homepage":"http://Sadriddin-Mamatov.github.io/myproject",
+  
   "name": "lesson-5",
   "version": "0.1.0",
   "private": true,
@@ -51,10 +51,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "The best package you will ever find.",
-  "main": "index.js",
-  "repository": "https://github.com/Sadriddin-Mamatov/myproject.git",
-  "author": "Yarn Contributor",
-  "license": "MIT"
+  }
 }

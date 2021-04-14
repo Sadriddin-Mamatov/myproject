@@ -15,8 +15,12 @@ class Navbar extends Component{
     render(){
         return(
             <nav className="NavbarItems">
+                <NavLink to='/' className='nav-link'>
             <h1 className="navbar-logo">
-            <GiTigerHead className="main-icon"/><span className="author"> Mister Sadriddin</span></h1>
+                
+            <GiTigerHead className="main-icon"/><span className="author"> Mister Sadriddin</span>
+            </h1>
+            </NavLink>
             <div className="menu-icon" onClick={this.handleClick}>
                 <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}>+
                 </i>
