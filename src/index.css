@@ -422,7 +422,8 @@ body {
 h1 {
   font-size: 42px;
   font-weight: 600;
-  margin: 0 0 30px;
+  /* margin: 0 0 0px; */
+  vertical-align:middle;
 }
 pre {
   background: #000;
