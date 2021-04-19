@@ -110,6 +110,7 @@ body {
 .box-image{
   float: left;
   width: 30%;
+  /* max-height: 400px!important; */
 }
 .developer-image{
   width:100%;

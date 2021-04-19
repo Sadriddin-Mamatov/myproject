@@ -9,6 +9,7 @@ import ImageM from "../images/movies.png";
 import ImageA from "../images/about.png";
 import ImageL from "../images/login.png";
 import ImageR from "../images/register.png";
+import ImageB from "../images/booklist.png";
 import {FiFacebook, FiInstagram,FiLinkedin} from "react-icons/fi";
 import {AiFillGithub} from "react-icons/ai";
 // import GoogleMapReact from "google-map-react";
@@ -24,7 +25,7 @@ const  Home = () => {
                 <div className="UxuiHeader_wrap">
                     <Typical loop
                     steps={['Hello! I`m Frontend Developer', 3500]} className="matn"/>
-                    <Link className="btn btn-outline-primary btn-rounded m-3 " to="/about" >Open My CV</Link>
+                    <a className="btn btn-outline-primary btn-rounded m-3 " href="./Myresume.docx" download >Open My CV</a>
                 </div>
 
               
@@ -166,10 +167,10 @@ const  Home = () => {
                          
                         </div>
                         <div className="card p-4">
-                            <img className="card-img-top" src={Image1 } alt="ds"/>
+                            <img className="card-img-top" src={ImageB} alt="ds"/>
                             <div className="card-body">
                             <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <Link to="/login" className="btn btn-outline-dark view-btn">View project </Link>
+                            <a href="https://create-booklist.netlify.app/" className="btn btn-outline-dark view-btn">View project </a>
                         </div>
                         </div>
                         <div className="card p-4">
@@ -180,8 +181,7 @@ const  Home = () => {
                             </div>
                         </div>
                  </div>
-            </div>
-                   
+            </div>            
         </div>
 
          {/* ==================================Contact and follow me=============================== */}
