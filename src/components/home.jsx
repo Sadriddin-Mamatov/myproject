@@ -170,7 +170,7 @@ const  Home = () => {
                             <img className="card-img-top" src={ImageB} alt="ds"/>
                             <div className="card-body">
                             <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <a href="https://create-booklist.netlify.app/" className="btn btn-outline-dark view-btn">View project </a>
+                            <a href="https://addnewbooklist.netlify.app/" className="btn btn-outline-dark view-btn">View project </a>
                         </div>
                         </div>
                         <div className="card p-4">
