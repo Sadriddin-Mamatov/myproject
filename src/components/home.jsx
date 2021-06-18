@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import Image from "../images/developer.jpg"
-import Image1 from "../images/apple";
+import ImageC from "../images/CiscoSmart.png";
 import Typical from 'react-typical';
 import { WiTime10 } from "react-icons/wi";
 import Moment from "react-moment";
@@ -174,10 +174,10 @@ const  Home = () => {
                         </div>
                         </div>
                         <div className="card p-4">
-                            <img className="card-img-top" src={Image1} alt="ds"/>
+                            <img className="card-img-top" src={ImageC} alt="ds"/>
                             <div className="card-body">
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <Link to="/login" className="btn btn-outline-dark view-btn">View project </Link>
+                            <p className="card-text">This web application was created using technologies such as MERN + Redux, this part is Login form, Html, CSS, JS, Reactjs</p>
+                            <a href="http://smartnet.ca-dc.uz/" className="btn btn-outline-dark view-btn">View project </a>
                             </div>
                         </div>
                  </div>

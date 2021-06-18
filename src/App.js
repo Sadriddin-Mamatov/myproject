@@ -19,7 +19,7 @@ class App extends Component {
         <Navbar/>
        <main className="main-body">
           <Switch>
-            <Route path="/register" component={RegisterForm} />
+            <Route path="/register" component={RegisterForm}/>
             <Route path="/login" component={LoginForm} />
             <Route path="/movies/:id" component={MovieForm} />
             <Route path="/movies" component={Movies} />
